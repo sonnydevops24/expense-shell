@@ -1,3 +1,3 @@
-dnf install mysql-server -mysql
+dnf install mysql-server
 systemctl enable mysqld
 systemctl start mysqld
