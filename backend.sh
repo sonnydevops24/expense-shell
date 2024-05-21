@@ -12,5 +12,6 @@ mysql -h 172.31.19.91 -uroot -pExpenseApp@1 < /app/schema/backend.sql
 systemctl daemon-reload
 systemctl enable backend
 systemctl restart backend
+dnf update -y
 
 
